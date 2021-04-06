@@ -4,11 +4,12 @@ import axios from 'axios';
 const Search = () => {
   const [term, setTerm] = useState('');
 
-  console.log('I run with every render');
-
   useEffect(() => {
-    console.log('I only gonna run once');
-  }, []);
+    const search = async () => {
+      await axios.get();
+    };
+    search();
+  }, [term]);
 
   return (
     <div>
