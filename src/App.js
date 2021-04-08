@@ -18,6 +18,21 @@ const items = [
   },
 ];
 
+const options = [
+  {
+    label: 'The color Red',
+    value: 'Red',
+  },
+  {
+    label: 'The color Green',
+    value: 'Green',
+  },
+  {
+    label: 'The shade of Blue',
+    value: 'Blue',
+  },
+];
+
 export default () => {
   return (
     <div>
