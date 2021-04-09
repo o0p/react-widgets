@@ -8,7 +8,13 @@ const Dropdown = ({ options }) => {
       </div>
     );
   });
-  return <h1>Dropdown</h1>;
+  return (
+    <div className="ui form">
+      <div className="field">
+        <label className="label">Select a Color</label>
+      </div>
+    </div>
+  );
 };
 
 export default Dropdown;
